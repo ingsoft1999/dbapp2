@@ -1,20 +1,14 @@
 {
-<<<<<<< HEAD
   "name": "dbapp2",
-=======
-  "name": "next-js-sqlite",
->>>>>>> 9f157fc0159999f96e052c945ea802c0a36c5752
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "reset-database": "ts-node -O \"{\\\"module\\\":\\\"commonjs\\\"}\" ./src/scripts/resetDatabase.ts"
+    "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
@@ -28,34 +22,5 @@
     "react-dom": "18.2.0",
     "sqlite3": "^5.1.4",
     "typescript": "4.9.5"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.1"
-=======
-    "@fortawesome/fontawesome-free": "^6.1.1",
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-regular-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "@types/lodash-es": "^4.17.6",
-    "@types/sqlite3": "^3.1.8",
-    "iron-session": "^6.1.3",
-    "knex": "^2.0.0",
-    "lodash-es": "^4.17.21",
-    "moment": "^2.29.3",
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "sqlite3": "^5.0.5"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.27",
-    "@types/react": "18.0.7",
-    "@types/react-dom": "18.0.0",
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5",
-    "ts-node": "^10.7.0",
-    "typescript": "4.6.3"
->>>>>>> 9f157fc0159999f96e052c945ea802c0a36c5752
   }
 }
